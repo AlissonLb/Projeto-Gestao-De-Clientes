@@ -6,13 +6,18 @@ Listar Clientes: Exibe uma lista de todos os clientes cadastrados.
 Adicionar Cliente: Permite adicionar um novo cliente ao sistema.
 Remover Cliente: Permite remover um cliente do sistema.
 Sair: Encerra o programa.
-
 Estrutura do Projeto
 Cliente: Estrutura que define um cliente com nome, email e cpf.
 Menu: Enumeração que define as opções do menu.
 Program: Classe principal que contém a lógica do programa.
-
-Observações
-O sistema utiliza a serialização binária para salvar e carregar os dados dos clientes.
-Para utilizar a serialização binária, a estrutura Cliente deve ser marcada com o atributo [System.Serializable].
-A aplicação é um exemplo simples de um CRUD (Create, Read, Update, Delete) em C#.
+Requisitos
+.NET Core ou .NET Framework
+Sistema Operacional: Windows, Linux ou macOS
+Como Executar
+Clone o repositório.
+Abra o projeto em seu IDE preferido (Visual Studio, Visual Studio Code, etc.).
+Compile e execute o projeto.
+Funcionamento
+O programa carrega a lista de clientes a partir de um arquivo binário (Clientes.dat) ao iniciar.
+O usuário pode escolher entre listar, adicionar ou remover clientes, ou sair do programa.
+As alterações feitas (adição ou remoção de clientes) são salvas automaticamente no arquivo binário.
