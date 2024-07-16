@@ -11,3 +11,8 @@ Estrutura do Projeto
 Cliente: Estrutura que define um cliente com nome, email e cpf.
 Menu: Enumeração que define as opções do menu.
 Program: Classe principal que contém a lógica do programa.
+
+Observações
+O sistema utiliza a serialização binária para salvar e carregar os dados dos clientes.
+Para utilizar a serialização binária, a estrutura Cliente deve ser marcada com o atributo [System.Serializable].
+A aplicação é um exemplo simples de um CRUD (Create, Read, Update, Delete) em C#.
